@@ -9,7 +9,7 @@ type Props = {
 
 const card = ({title, description, src}: Props) => {
   return (
-    <div className='ml-5 p-3 w-1/2  md:w-1/3 h-1/3 bg-slate-200 rounded-md flex flex-col'>
+    <div className='border border-red-700 p-3 w-2/3 bg-slate-200 rounded-md flex flex-col mb-7'>
         <img src='finance-app.png' className='p-2 min-h-60 max-h-60 border border-blue-500'/>
         <h2 className='text-xl font-semibold my-3'>{title}</h2>
         <p>{description}</p>
