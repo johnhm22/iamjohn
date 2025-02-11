@@ -1,12 +1,13 @@
 import React from 'react';
 import Image from 'next/image'
 import Pill from '@/app/components/Pill';
+import Link from 'next/link';
 
 const page = () => {
   return (
     <>
-    <section className='h-screen flex justify-center'>
-    <div className='w-11/12 pl-3 border border-blue-500 min-h-max'>
+    <section className='flex justify-center bg-red-300'>
+    <div className='w-11/12 pl-3 border border-blue-500 bg-amber-300'>
     <h1 className='pt-7 text-5xl mb-9 font-normal'>Finance App</h1>
     <div className='mb-7 '>
     <p className='text-4xl'>Purpose</p>
@@ -59,6 +60,11 @@ const page = () => {
     </div>
     <p className='text-4xl my-3'>Lessons learnt</p>
     <p className='mb-7'>This was as full-stack as it gets. I wanted to replicated the complexity and professionalism of a commercial project I had developed with a dev team. The difference was that I would do everything. The key learning experiences were tailwind, which I had not seriously used previously, ensuring modularity by using components, and testing with vitest.</p>
+    <div className='flex justify-end gap-3 pb-3 pr-3 font-medium'>
+      <Link href='https://github.com/johnhm22/finance-app' target='_blank'><button className='rounded-md py-2 px-4 bg-green-500'>Code</button> </Link>
+      <Link href='https://finance-app-puce.vercel.app/' target='_blank'><button className='rounded-md py-2 px-4 bg-blue-500'>Website</button> </Link>
+    </div>
+    
     </div>
     </section>
     
