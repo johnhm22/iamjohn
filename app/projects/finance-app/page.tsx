@@ -6,8 +6,8 @@ import Link from "next/link";
 const page = () => {
   return (
     <>
-      <section className="flex justify-center bg-red-300">
-        <div className="w-11/12 pl-3 border border-blue-500 bg-amber-300">
+      <section className="flex justify-center">
+        <div className="w-11/12 pl-3">
           <h1 className="pt-7 text-5xl mb-9 font-normal">Finance App</h1>
           <div className="mb-7 ">
             <p className="text-4xl">Purpose</p>
