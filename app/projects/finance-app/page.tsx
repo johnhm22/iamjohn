@@ -39,7 +39,7 @@ const page = () => {
               To use the above, the user needs to create an account; just a
               simple username, first and last name, and password. For some
               wanting to have the price of an invdividual share, and avoid
-              account creation, there is a soon-to-be-released 'quick quote'
+              account creation, there is a soon-to-be-released &apos;quick quote&apos;
               feature where the user searches for the company stock and a price
               is displayed.
             </p>
