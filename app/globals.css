@@ -2,7 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* <h2 className="text-2xl lg:text-5xl mb-10 lg:mb-16 font-normal"> */
+
+@layer components {
+  .heading {
+      font-size: 1.5rem /* 24px */;
+      line-height: 2rem /* 32px */;
+    margin-bottom: 2.5rem /* 40px */;
+  font-weight: 400;
+@media (min-width: 1024px) {
+    margin-bottom: 4rem /* 64px */;
+    font-size: 3rem /* 48px */;
+    line-height: 1;
+}
+}
+.contain{  
+  width: 91.666667%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  display: flex;
+}
+  } 
+
+    /* }
+  } */
+
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -18,4 +45,4 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
