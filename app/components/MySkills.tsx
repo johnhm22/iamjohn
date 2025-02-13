@@ -3,14 +3,18 @@ import Pill from "./Pill";
 import Link from "next/link";
 
 const MySkills = () => {
+  // INTRO <div className="w-11/12 mx-auto md:min-h-screen flex items-center mb-11"></div>
+  // PROJECTS <div className="w-11/12 mx-auto min-h-screen">
+  //MY SKILLS <div className="w-11/12 mx-auto min-h-screen">
   return (
     <div className="mb-11">
-      <div className="container mx-auto min-h-screen flex">
+      <div className="w-11/12 mx-auto min-h-screen">
+      {/* <div className="contain"> */}
         <div className="flex flex-col">
-          <div className="h-80 min-h-max">
-            <h2 className="text-5xl mb-16 font-normal">My Skills</h2>
+          <div className="min-h-max">
+            <h2 className="heading">My Skills</h2>
             <div className=" flex justify-center">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-24 w-5/6">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-10 lg:gap-y-24 w-5/6">
                 <div className="mb-7">
                   <p className="ml-3 grid grid-cols-3 gap-3 text-xl font-semibold text-black">
                     Languages

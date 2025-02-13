@@ -28,14 +28,14 @@ const Header = () => {
             height={20}
             width={20}
           />
-          <div>johnmorgan</div>
+          <div className="invisible sm:visible">johnmorgan</div>
         </Link>
 
         <div className="flex gap-5 cursor-pointer">
           <div className="flex flex-row gap-2 mr-3" onClick={handleOnClick}>
             <p className="text-sm italic hover:font-semibold">Free help</p>
             <Image
-            alt="giftbox"
+              alt="giftbox"
               className="object-contain"
               src="/giftbox.png"
               height={20}
@@ -47,7 +47,7 @@ const Header = () => {
             href="mailto:johnhowardmorgan@outlook.com?subject=Query from your website"
             target="_blank"
           >
-            <Image alt='inbox' src="/inbox.png" height={20} width={20} />
+            <Image alt="inbox" src="/inbox.png" height={20} width={20} />
           </Link>
           <Link
             href="https://www.linkedin.com/in/john-morgan-a6a1632"
@@ -60,7 +60,7 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <dialog ref={dialogRef} className="relative w-2/5 backdrop-blur-xl">
+      <dialog ref={dialogRef} className="relative md:w-2/5 backdrop-blur-xl">
         <button
           onClick={closeDialog}
           className="absolute border text-gray-400 font-normal text-sm top-1 right-1 rounded-md px-2 py-1 text-md bg-gray-200"

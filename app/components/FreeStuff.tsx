@@ -4,11 +4,8 @@ import Image from "next/image";
 
 const FreeStuff = () => {
   return (
-    <div
-      id="free"
-      className="container mx-auto min-h-maxborder border-red-500 flex flex-col items-center my-16 text-center"
-    >
-      <div className="flex flex-row gap-3">
+    <div className="container mx-auto min-h-max flex flex-col items-center my-16 text-center">
+      <div className="flex flex-row md:gap-3">
         <Image
           alt="giftbox"
           className="object-contain"
@@ -16,13 +13,14 @@ const FreeStuff = () => {
           height={30}
           width={30}
         />{" "}
-        <h2 className="text-5xl font-semibold">Free Stuff</h2>
+        <h2 className="text-3xl md:text-5xl font-semibold">Free Stuff</h2>
         <Image
           alt="giftbox"
           className="object-contain"
           src="/giftbox.png"
           height={30}
           width={30}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
       <p className="w-1/2 mt-3 leading-6">
