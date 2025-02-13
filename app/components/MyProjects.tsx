@@ -26,6 +26,18 @@ const MyProjects = () => {
               description="An entertaining AI chatbot where you control the language of the reply. It uses the Vercel AI SDK and, in particular, the useChat hook. The AI model along with system prompt, maxTokens and temperature are coded into an api call"
               link="language-chatbot"
             />
+            <Card
+              src="/ai-object-detection-cars.png"
+              title="AI Object Detection"
+              description="Demonstrating AI in the important area of object detection. Using a xenova transformer model, an image is provided which the model then analyses and returns with key features identified. Quite an eye-opener to the power of AI."
+              link="object-detection"
+            />
+            <Card
+              src="/black-and-white.png"
+              title="AI Image-to-Image Transformation"
+              description="Using the power of AI to take an image as input and transform it based on instructions provided"
+              link="image-transformation"
+            />
           </div>
         </div>
       </div>
