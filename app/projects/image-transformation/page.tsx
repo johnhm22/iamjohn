@@ -34,13 +34,13 @@ const page = () => {
             <p className="mb-3">
               The user prompt used to instruct the model is as follows:{" "}
               <span className="italic">
-                "Make a color copy of this photograph. It shows an elderly
+                Make a color copy of this photograph. It shows an elderly
                 couple walking away fro the camera down a gravel path bordered
                 by grass and trees. The man, on the right, is carrying bags in
                 both hands. The woman, on the left, is carrying a bag in her
                 left hand and with her right hand is holding the arm of the man.
                 It is a sunny day. The sun is shining on the heads of the couple
-                and their shadows are cast behind them."
+                and their shadows are cast behind them.
               </span>
             </p>
 

@@ -25,7 +25,7 @@ const FreeStuff = () => {
         />
       </div>
       <p className="w-1/2 mt-3 leading-6">
-        If you need help on a project, a couple of days' coding for example,
+        If you need help on a project, a couple of days&apos; coding for example,
         based on the skill set I can offer then{" "}
         <Link
           href="mailto:johnhowardmorgan@outlook.com?subject=Query from your website"

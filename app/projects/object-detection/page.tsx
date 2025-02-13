@@ -68,8 +68,8 @@ const page = () => {
           <p className="text-4xl my-3">Lessons learnt</p>
           <p className="mb-7">
             This provided an insight into the one of the real world applications
-            that AI is the key to, driverless cars. I've not yet put this in my
-            car, but at least I've taken the first step!
+            that AI is the key to, driverless cars. I&apos;ve not yet put this in my
+            car, but at least I&apos;ve taken the first step!
           </p>
           <div className="flex justify-end gap-3 pb-3 pr-3 font-medium">
             <Link
