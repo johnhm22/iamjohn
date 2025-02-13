@@ -3,7 +3,7 @@ import React from "react";
 
 const Intro = () => {
   return (
-    <div className="w-11/12 mx-auto min-h-screen flex items-center mb-11">
+    <div className="w-11/12 h-[40rem] mx-auto md:min-h-screen flex items-center mb-11">
       <div className="flex flex-col">
         <h1 className="text-4xl lg:text-7xl mb-11">Welcome to my web page</h1>
         <div className="h-80 ">
