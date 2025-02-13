@@ -87,8 +87,8 @@ const page = () => {
           <p className="text-4xl my-3">Lessons learnt</p>
           <p className="mb-7">
             This was an opportunity to build on the knowledge gained during the
-            AI Engineering course that I had been taking. Practising with the
-            ai/sdk was useful in giving me an insight into the development
+            AI Engineering course that I had been taking. Practising with the AI
+            SDK was useful in giving me an insight into the development
             flexibility available.
           </p>
           <div className="flex justify-end gap-3 pb-3 pr-3 font-medium">
