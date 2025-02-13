@@ -9,7 +9,8 @@ const FreeStuff = () => {
       className="container mx-auto min-h-maxborder border-red-500 flex flex-col items-center my-16 text-center"
     >
       <div className="flex flex-row gap-3">
-        <img
+        <Image
+          alt="giftbox"
           className="object-contain"
           src="/giftbox.png"
           height={30}
@@ -25,15 +26,16 @@ const FreeStuff = () => {
         />
       </div>
       <p className="w-1/2 mt-3 leading-6">
-        If you need help on a project, a couple of days&apos; coding for example,
-        based on the skill set I can offer then{" "}
+        If you need help on a project, a couple of days&apos; coding for
+        example, based on the skill set I can offer then{" "}
         <Link
           href="mailto:johnhowardmorgan@outlook.com?subject=Query from your website"
           target="_blank"
         >
           please get in touch.
           <>
-            <img
+            <Image
+              alt="inbox"
               className="inline object-contain"
               src="/inbox.png"
               height={20}
