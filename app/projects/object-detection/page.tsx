@@ -19,10 +19,13 @@ const page = () => {
           <div className="mb-12">
             <p className="text-4xl">What does it do?</p>
             <p className="my-3">
-              Provide an image and the model will analyse it and return the image with identified objects highlighted; simple, but truly impressive.                      
+              Provide an image and the model will analyse it and return the
+              image with identified objects highlighted; simple, but truly
+              impressive.
             </p>
             <p>
-              Currently, the image is a file in the code, but an option will be developed to allow the user to upload an image for analysis.
+              Currently, the image is a file in the code, but an option will be
+              developed to allow the user to upload an image for analysis.
             </p>
 
             <p className="mb-7">
@@ -48,23 +51,25 @@ const page = () => {
                 className="object-contain"
                 src="/ai-object-detection-fruit.png"
               />
-            </div>          
+            </div>
           </div>
 
           <div className="mb-7">
             <p className="text-4xl mb-3">Tech used</p>
             <div>
-              <Pill text="HTML/css" />              
-              <Pill text="JavaScript" />              
+              <Pill text="HTML/css" />
+              <Pill text="JavaScript" />
             </div>
             <div>
               <Pill text="Transformers.js" />
               <Pill text="Xenova/yolos-tiny" />
-            </div>         
+            </div>
           </div>
           <p className="text-4xl my-3">Lessons learnt</p>
           <p className="mb-7">
-            This provided an insight into the one of the real world applications that AI is the key to, driverless cars. I've not yet put this in my car, but at least I've taken the first step!
+            This provided an insight into the one of the real world applications
+            that AI is the key to, driverless cars. I've not yet put this in my
+            car, but at least I've taken the first step!
           </p>
           <div className="flex justify-end gap-3 pb-3 pr-3 font-medium">
             <Link

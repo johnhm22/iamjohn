@@ -32,12 +32,19 @@ const page = () => {
               developed to allow the user to upload an image for analysis.
             </p>
             <p className="mb-3">
-              The user prompt used to instruct the model is as follows: <span className="italic">"Make a color copy of this photograph. It shows an elderly couple walking away fro the camera down a gravel path bordered by grass and trees. The man, on the right, is carrying bags in both hands. The woman, on the left, is carrying a bag in her left hand and with her right hand is holding the arm of the man. It is a sunny day. The sun is shining on the heads of the couple and their shadows are cast behind them."</span>
+              The user prompt used to instruct the model is as follows:{" "}
+              <span className="italic">
+                "Make a color copy of this photograph. It shows an elderly
+                couple walking away fro the camera down a gravel path bordered
+                by grass and trees. The man, on the right, is carrying bags in
+                both hands. The woman, on the left, is carrying a bag in her
+                left hand and with her right hand is holding the arm of the man.
+                It is a sunny day. The sun is shining on the heads of the couple
+                and their shadows are cast behind them."
+              </span>
             </p>
 
-            <p className="mb-7">
-              Below are the input and output images:
-            </p>
+            <p className="mb-7">Below are the input and output images:</p>
             <p className="mb-5 text-xl">Starting image</p>
             <div className="flex mt-5  justify-center">
               <Image
@@ -75,7 +82,10 @@ const page = () => {
           </div>
           <p className="text-4xl my-3">Lessons learnt</p>
           <p className="mb-7">
-            The models are not perfect and their effectiveness also depends on the user prompt. Another variable is the size of the image; as the size is reduced, the less information there is in the image which impacts the transformation ability of the AI.
+            The models are not perfect and their effectiveness also depends on
+            the user prompt. Another variable is the size of the image; as the
+            size is reduced, the less information there is in the image which
+            impacts the transformation ability of the AI.
           </p>
           <div className="flex justify-end gap-3 pb-3 pr-3 font-medium">
             <Link
