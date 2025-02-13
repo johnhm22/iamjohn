@@ -34,7 +34,8 @@ const Header = () => {
         <div className="flex gap-5 cursor-pointer">
           <div className="flex flex-row gap-2 mr-3" onClick={handleOnClick}>
             <p className="text-sm italic hover:font-semibold">Free help</p>
-            <img
+            <Image
+            alt="giftbox"
               className="object-contain"
               src="/giftbox.png"
               height={20}
@@ -46,16 +47,16 @@ const Header = () => {
             href="mailto:johnhowardmorgan@outlook.com?subject=Query from your website"
             target="_blank"
           >
-            <img src="/inbox.png" height={20} width={20} />
+            <Image alt='inbox' src="/inbox.png" height={20} width={20} />
           </Link>
           <Link
             href="https://www.linkedin.com/in/john-morgan-a6a1632"
             target="_blank"
           >
-            <img src="/linkedin.png" height={20} width={20} />
+            <Image alt="linkedin" src="/linkedin.png" height={20} width={20} />
           </Link>
           <Link href="https://github.com/johnhm22" target="_blank">
-            <img src="/github.png" height={20} width={20} />
+            <Image alt="github" src="/github.png" height={20} width={20} />
           </Link>
         </div>
       </div>

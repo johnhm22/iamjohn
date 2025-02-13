@@ -1,9 +1,10 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 const FreeStuff = () => {
   return (
-    <div      
+    <div
       id="free"
       className="container mx-auto min-h-maxborder border-red-500 flex flex-col items-center my-16 text-center"
     >
@@ -15,7 +16,8 @@ const FreeStuff = () => {
           width={30}
         />{" "}
         <h2 className="text-5xl font-semibold">Free Stuff</h2>
-        <img
+        <Image
+          alt="giftbox"
           className="object-contain"
           src="/giftbox.png"
           height={30}
@@ -28,7 +30,6 @@ const FreeStuff = () => {
         <Link
           href="mailto:johnhowardmorgan@outlook.com?subject=Query from your website"
           target="_blank"
-          
         >
           please get in touch.
           <>
