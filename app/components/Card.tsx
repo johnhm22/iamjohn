@@ -11,17 +11,17 @@ type Props = {
 
 const Card = ({ title, description, src, link }: Props) => {
   return (
-    <div className="border border-red-700 p-3 w-2/3 bg-slate-200 rounded-md flex flex-col mb-7">
+    <div className="p-3 w-2/3 bg-slate-200 rounded-md flex flex-col mb-7">
       <div className="place-items-center">
         <Image
           alt="App image"
           src={src}
           width={382}
           height={222}
-          className="object-cover w-[250px] md:w-[400px] h-auto p-2 min-h-60 max-h-60 border border-blue-500 mb-1"
+          className="object-contain w-[250px] md:w-[400px] h-auto p-2 min-h-60 max-h-60 mb-1"
         />
       </div>
-      <div className="border border-cyan-600 min-h-40">
+      <div className="min-h-40">
         <h2 className="text-xl font-semibold my-3">{title}</h2>
         <p>{description}</p>
       </div>
