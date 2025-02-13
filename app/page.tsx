@@ -6,12 +6,11 @@ import Myprojects from "./components/MyProjects";
 export default function Home() {
   return (
     <>
-<Intro />
+      <Intro />
 
-<Myskills />
+      <Myskills />
 
-<Myprojects/>
-          </>
-          
+      <Myprojects />      
+    </>
   );
 }
