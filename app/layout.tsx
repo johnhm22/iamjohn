@@ -8,14 +8,9 @@ const inter = Inter({
   display: 'swap',
 });
 
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
-
 export const metadata: Metadata = {
-  title: "My name is John",
-  description: "My background and skills",
+  title: "John - fullstack dev",
+  description: "Fullstack developer",
 };
 
 export default function RootLayout({
