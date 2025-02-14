@@ -39,9 +39,9 @@ const page = () => {
               To use the above, the user needs to create an account; just a
               simple username, first and last name, and password. For some
               wanting to have the price of an invdividual share, and avoid
-              account creation, there is a soon-to-be-released &apos;quick quote&apos;
-              feature where the user searches for the company stock and a price
-              is displayed.
+              account creation, there is a soon-to-be-released &apos;quick
+              quote&apos; feature where the user searches for the company stock
+              and a price is displayed.
             </p>
             <p className="mb-7">
               Below are a few screen shots of the key pages:
@@ -99,7 +99,7 @@ const page = () => {
           </div>
           <p className="text-4xl my-3">Lessons learnt</p>
           <p className="mb-7">
-            This was as full-stack as it gets. I wanted to replicated the
+            This was as full-stack as it gets. I wanted to replicate the
             complexity and professionalism of a commercial project I had
             developed with a dev team. The difference was that I would do
             everything. The key learning experiences were tailwind, which I had
