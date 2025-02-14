@@ -7,7 +7,7 @@ const page = () => {
   return (
     <>
       <section className="flex justify-center">
-        <div className="w-11/12 pl-3 border border-blue-500 min-h-max">
+        <div className="w-11/12 pl-3 min-h-max">
           <h1 className="pt-7 text-5xl mb-9 font-normal">Prismic CMS</h1>
           <div className="mb-7 ">
             <p className="text-4xl">Purpose</p>
@@ -23,9 +23,12 @@ const page = () => {
           <div className="mb-12">
             <p className="text-4xl">What does it do?</p>
             <p className="my-3">
-           It is a non-interactive site; there is no means of engaging with user input. The purpose is simply to define a series of pages that are comprise of one or more slices. The user can navigate through these pages. The non-developer can update the pages when required.
+              It is a non-interactive site; there is no means of engaging with
+              user input. The purpose is simply to define a series of pages that
+              are comprise of one or more slices. The user can navigate through
+              these pages. The non-developer can update the pages when required.
             </p>
-       
+
             <p className="mb-7">
               Below are a few screen shots of the key pages:
             </p>
@@ -82,7 +85,14 @@ const page = () => {
           </div>
           <p className="text-4xl my-3">Lessons learnt</p>
           <p className="mb-7">
-            This was the first venture into coding with a CMS and Next.js. Being used to developing in Next.js, it was, at first, tricky to understand how Prismic fitted in. However, after some practice it seemed logical. It was applied to a later project, a case study for a property rental business. Here difficulties were found when trying to enable front-end sorting of properties. To overcome this, a PostgreSQL database was introduced to store links to property photos held in the Prismic media library.
+            This was the first venture into coding with a CMS and Next.js. Being
+            used to developing in Next.js, it was, at first, tricky to
+            understand how Prismic fitted in. However, after some practice it
+            seemed logical. It was applied to a later project, a case study for
+            a property rental business. Here difficulties were found when trying
+            to enable front-end sorting of properties. To overcome this, a
+            PostgreSQL database was introduced to store links to property photos
+            held in the Prismic media library.
           </p>
           <div className="flex justify-end gap-3 pb-3 pr-3 font-medium">
             <Link
