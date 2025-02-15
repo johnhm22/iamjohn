@@ -9,7 +9,7 @@ const MySkills = () => {
   return (
     <div className="mb-11">
       <div className="w-11/12 mx-auto min-h-screen">
-      {/* <div className="contain"> */}
+        {/* <div className="contain"> */}
         <div className="flex flex-col">
           <div className="min-h-max">
             <h2 className="heading">My Skills</h2>
@@ -35,6 +35,13 @@ const MySkills = () => {
                     Frameworks and Libraries
                   </p>
                   <Pill text="React" />
+                  <Pill text="Vercel AI SDK" />
+                  <Link href="https://openai.com/api/" target="_blank">
+                    <Pill text="Open AI" />
+                  </Link>
+                  <Link href="https://huggingface.co/" target="_blank">
+                    <Pill text="Hugging Face" />
+                  </Link>
                   <Link href="https://nextjs.org/" target="_blank">
                     <Pill text="Next.js v15" />
                   </Link>
