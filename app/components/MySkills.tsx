@@ -71,6 +71,12 @@ const MySkills = () => {
                     <Pill text="Shortcut" />
                   </Link>
                   <Pill text="Linux CLI" />
+                  <Link href="https://www.postman.com/" target="_blank">
+                    <Pill text="Postman" />
+                  </Link>
+                  <Link href="https://vitest.dev/" target="_blank">
+                    <Pill text="Vitest" />
+                  </Link>
                 </div>
 
                 <div>
