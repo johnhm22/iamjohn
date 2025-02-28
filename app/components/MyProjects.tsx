@@ -35,8 +35,14 @@ const MyProjects = () => {
           <Card
             src="/black-and-white.png"
             title="AI Image-to-Image Transformation"
-            description="Using the power of AI to take an image as input and transform it based on instructions provided"
+            description="Using the power of AI to take an image as input and transform it based on instructions provided."
             link="image-transformation"
+          />
+          <Card
+            src="/georgina-home.png"
+            title="Georgina Homes - proof of concept"
+            description="Applying Prismic CMS to a property rental. Using a variety of frameworks and libraries - Next.js, Prismic, Prisma, PostgreSQL, but also design and coding tools such as embla-carousel and class-variance-authority."
+            link="georgina-homes"
           />
         </div>
       </div>
