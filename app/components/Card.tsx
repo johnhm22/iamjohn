@@ -11,7 +11,7 @@ type Props = {
 
 const Card = ({ title, description, src, link }: Props) => {
   return (
-    <div className="p-3 w-11/12 lg:w-2/3 bg-slate-200 rounded-md flex flex-col mb-7">
+    <div className="p-3 w-11/12 lg:w-11/12 bg-slate-200 rounded-md flex flex-col mb-7">
       <div className="place-items-center">
         <Image
           alt="App image"
