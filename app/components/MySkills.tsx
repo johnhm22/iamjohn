@@ -14,7 +14,7 @@ const MySkills = () => {
           <div className="min-h-max">
             <h2 className="heading">My Skills</h2>
             <div className=" flex justify-center">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-10 lg:gap-y-24 w-5/6">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-3 gap-y-10 lg:gap-y-3">
                 <div className="mb-7">
                   <p className="ml-3 grid grid-cols-3 gap-3 text-xl font-semibold text-black">
                     Languages

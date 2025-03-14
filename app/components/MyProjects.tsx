@@ -4,8 +4,7 @@ import Card from "./Card";
 const MyProjects = () => {
   return (
     <div>
-      <div className="w-11/12 mx-auto min-h-screen">
-        {/* <div className="contain"> */}
+      <div className=" mx-auto min-h-screen">
         <h2 className="heading">Projects</h2>
         <div className="h-full justify-items-center grid grid-cols-1 md:grid-cols-2">
           <Card
