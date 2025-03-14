@@ -1,16 +1,19 @@
 import Intro from "./components/Intro";
 import Myskills from "./components/MySkills";
 import Myprojects from "./components/MyProjects";
-
+import WhoAmI from "./components/WhoAmI";
 
 export default function Home() {
   return (
-    <>
-      <Intro />
-
-      <Myskills />
-
-      <Myprojects />      
-    </>
+    <section className="px-9 grid grid-cols-3 gap-7">
+      <div className="mt-20 self-start sticky top-20">
+        <Intro />
+      </div>
+      <div className="col-span-2 mt-20 overflow-auto">
+        {/* <WhoAmI /> */}
+        <Myskills />
+        <Myprojects />
+      </div>
+    </section>
   );
 }
