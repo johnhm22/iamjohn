@@ -1,7 +1,6 @@
 import Intro from "./components/Intro";
 import Myskills from "./components/MySkills";
 import Myprojects from "./components/MyProjects";
-import WhoAmI from "./components/WhoAmI";
 
 export default function Home() {
   return (
@@ -10,7 +9,6 @@ export default function Home() {
         <Intro />
       </div>
       <div className="col-span-2 mt-20 overflow-auto">
-        {/* <WhoAmI /> */}
         <Myskills />
         <Myprojects />
       </div>
