@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <nav>
-      <div className="relative flex justify-between py-5 px-3 z-100 bg-slate-50 min-w-full">
+      <div className="fixed flex justify-between py-5 px-3 z-100 bg-slate-50 min-w-full">
         <Link href="/" className="flex flex-row gap-3">
           <Image
             className="object-contain"
@@ -63,7 +63,7 @@ const Header = () => {
       <dialog ref={dialogRef} className="relative md:w-2/5 backdrop-blur-xl">
         <button
           onClick={closeDialog}
-          className="absolute border text-gray-400 font-normal text-sm top-1 right-1 rounded-md px-2 py-1 text-md bg-gray-200"
+          className="absolute text-gray-400 font-normal text-sm top-1 right-1 rounded-md px-2 py-1 text-md bg-gray-200"
         >
           esc
         </button>
