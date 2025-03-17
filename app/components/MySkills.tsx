@@ -3,16 +3,12 @@ import Pill from "./Pill";
 import Link from "next/link";
 
 const MySkills = () => {
-  // INTRO <div className="w-11/12 mx-auto md:min-h-screen flex items-center mb-11"></div>
-  // PROJECTS <div className="w-11/12 mx-auto min-h-screen">
-  //MY SKILLS <div className="w-11/12 mx-auto min-h-screen">
   return (
     <div className="mb-11">
-      <div className="w-11/12 mx-auto min-h-screen">
-        {/* <div className="contain"> */}
+      <div className="mx-auto min-h-screen">
         <div className="flex flex-col">
           <div className="min-h-max">
-            <h2 className="heading">My Skills</h2>
+            <h2 className="heading-section">My Skills</h2>
             <div className=" flex justify-center">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-3 gap-y-10 lg:gap-y-3">
                 <div className="mb-7">
@@ -24,13 +20,6 @@ const MySkills = () => {
                   <Pill text="HTML/css" />
                 </div>
                 <div className="mb-7">
-                  {/* <div>
-        <Skills header='Languages'>
-          <><Pill text='JavaScript'/></>
-          <><Pill text='TypeScript'/></>
-          <><Pill text='HTML/css'/></>
-        </Skills>   
-      <div> */}
                   <p className="ml-3 grid grid-cols-3 gap-3 text-xl font-semibold whitespace-nowrap">
                     Frameworks and Libraries
                   </p>

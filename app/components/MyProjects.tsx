@@ -5,8 +5,8 @@ const MyProjects = () => {
   return (
     <div>
       <div className=" mx-auto min-h-screen">
-        <h2 className="heading">Projects</h2>
-        <div className="h-full justify-items-center grid grid-cols-1 md:grid-cols-2">
+        <h2 className="heading-section">Projects</h2>
+        <div className="h-full justify-items-center grid grid-cols-1 lg:grid-cols-2">
           <Card
             src="/finance-app.png"
             title="Finance App"
@@ -40,7 +40,7 @@ const MyProjects = () => {
           <Card
             src="/georgina-home.png"
             title="Georgina Homes - proof of concept"
-            description="Applying Prismic CMS to a property rental. Using a variety of frameworks and libraries - Next.js, Prismic, Prisma, PostgreSQL, but also design and coding tools such as embla-carousel and class-variance-authority."
+            description="Applying Prismic CMS to a property rental. Using a variety of frameworks and libraries - Next.js, Prismic, Prisma, PostgreSQL, but also design/coding tools."
             link="georgina-homes"
           />
         </div>

@@ -8,7 +8,7 @@ export default function Home() {
       <div className="mt-20 self-start md:sticky top-20">
         <Intro />
       </div>
-      <div className="col-span-2 mt-20 overflow-auto">
+      <div className="col-span-2 mt-5 lg:mt-20">
         <Myskills />
         <Myprojects />
       </div>
