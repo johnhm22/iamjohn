@@ -31,17 +31,15 @@ const Header = () => {
           <div className="invisible sm:visible">johnmorgan</div>
         </Link>
 
-        <div className="flex gap-5 cursor-pointer">
-          <div className="flex flex-row gap-2 mr-3" onClick={handleOnClick}>
-            <p className="text-sm italic hover:font-semibold">Free help</p>
-            <Image
-              alt="giftbox"
-              className="object-contain"
-              src="/giftbox.png"
-              height={20}
-              width={20}
-            />
-          </div>
+        <div className="flex gap-4 cursor-pointer">
+          <Image
+            alt="giftbox"
+            className="object-contain"
+            src="/giftbox.png"
+            height={20}
+            width={20}
+            onClick={handleOnClick}
+          />
 
           <Link
             href="mailto:johnhowardmorgan@outlook.com?subject=Query from your website"
