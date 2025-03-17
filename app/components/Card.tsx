@@ -18,11 +18,13 @@ const Card = ({ title, description, src, link }: Props) => {
           src={src}
           width={382}
           height={222}
-          className="object-contain w-[250px] md:w-[400px] p-2 min-h-40 lg:min-h-60 max-h-60 mb-1"
+          className="object-contain w-11/12 p-2 min-h-40 lg:min-h-60 max-h-60 mb-1"
         />
       </div>
-      <div className="min-h-40">
-        <h2 className=" text-lg lg:text-xl font-semibold my-3">{title}</h2>
+      <div className="h-1/2">
+        <h2 className="text-base md:text-lg lg:text-xl font-semibold my-3">
+          {title}
+        </h2>
         <p>{description}</p>
       </div>
       <div className="flex justify-end mt-3">
