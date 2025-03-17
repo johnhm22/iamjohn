@@ -7,7 +7,7 @@ const page = () => {
   return (
     <>
       <section className="flex justify-center">
-        <div className="w-11/12 pl-3 min-h-max">
+        <div className="w-11/12 pl-3 min-h-max  mt-14">
           <h1 className="pt-7 text-5xl mb-9 font-normal">
             AI Image Transformation
           </h1>
@@ -112,7 +112,8 @@ const page = () => {
             >
               model card page
             </Link>{" "}
-            to get more information about the configurable parameters. Experimentation is key.
+            to get more information about the configurable parameters.
+            Experimentation is key.
           </p>
           <div className="flex justify-end gap-3 pb-3 pr-3 font-medium">
             <Link

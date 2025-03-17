@@ -7,7 +7,7 @@ const page = () => {
   return (
     <>
       <section className="flex justify-center">
-        <div className="w-11/12 pl-3">
+        <div className="w-11/12 pl-3 mt-14">
           <h1 className="pt-7 text-5xl mb-9 font-normal">
             Property Rental App
           </h1>

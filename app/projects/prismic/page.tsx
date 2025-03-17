@@ -7,7 +7,7 @@ const page = () => {
   return (
     <>
       <section className="flex justify-center">
-        <div className="w-11/12 pl-3 min-h-max">
+        <div className="w-11/12 pl-3 min-h-max mt-14">
           <h1 className="pt-7 text-5xl mb-9 font-normal">Prismic CMS</h1>
           <div className="mb-7 ">
             <p className="text-4xl">Purpose</p>

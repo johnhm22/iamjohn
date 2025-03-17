@@ -7,7 +7,7 @@ const page = () => {
   return (
     <>
       <section className="flex justify-center">
-        <div className="w-11/12 pl-3 min-h-max">
+        <div className="w-11/12 pl-3 min-h-max  mt-14">
           <h1 className="pt-7 text-5xl mb-9 font-normal">AI Image Detection</h1>
           <div className="mb-7 ">
             <p className="text-4xl">Purpose</p>
@@ -68,8 +68,8 @@ const page = () => {
           <p className="text-4xl my-3">Lessons learnt</p>
           <p className="mb-7">
             This provided an insight into the one of the real world applications
-            that AI is the key to, driverless cars. I&apos;ve not yet put this in my
-            car, but at least I&apos;ve taken the first step!
+            that AI is the key to, driverless cars. I&apos;ve not yet put this
+            in my car, but at least I&apos;ve taken the first step!
           </p>
           <div className="flex justify-end gap-3 pb-3 pr-3 font-medium">
             <Link
