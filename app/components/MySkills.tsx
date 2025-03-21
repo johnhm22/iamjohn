@@ -28,9 +28,7 @@ const MySkills = () => {
                   <Link href="https://openai.com/api/" target="_blank">
                     <Pill text="Open AI" />
                   </Link>
-                  <Link href="https://huggingface.co/" target="_blank">
-                    <Pill text="Hugging Face" />
-                  </Link>
+
                   <Link href="https://nextjs.org/" target="_blank">
                     <Pill text="Next.js v15" />
                   </Link>
@@ -65,6 +63,25 @@ const MySkills = () => {
                   </Link>
                   <Link href="https://vitest.dev/" target="_blank">
                     <Pill text="Vitest" />
+                  </Link>
+                </div>
+                <div>
+                  <p className="ml-3 grid grid-cols-3 gap-3 text-xl font-semibold whitespace-nowrap">
+                    AI
+                  </p>
+                  <Link
+                    href="https://platform.openai.com/docs/overview"
+                    target="_blank"
+                  >
+                    <Pill text="OpenAI" />
+                  </Link>
+                  <Pill text="Embeddings" />
+                  <Pill text="Vector databases" />
+                  <Link href="https://sdk.vercel.ai/" target="_blank">
+                    <Pill text="Vercel AI SDK" />
+                  </Link>
+                  <Link href="https://huggingface.co/" target="_blank">
+                    <Pill text="Open source models" />
                   </Link>
                 </div>
 
