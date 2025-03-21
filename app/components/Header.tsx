@@ -57,7 +57,10 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <dialog ref={dialogRef} className="relative md:w-2/5 backdrop-blur-xl">
+      <dialog
+        ref={dialogRef}
+        className="relative backdrop-blur-xl border w-4/5 md:w-1/2"
+      >
         <button
           onClick={closeDialog}
           className="absolute text-gray-400 font-normal text-sm top-1 right-1 rounded-md px-2 py-1 text-md bg-gray-200"
