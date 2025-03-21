@@ -13,7 +13,7 @@ const FreeStuff = () => {
           height={30}
           width={30}
         />{" "}
-        <h2 className="text-3xl md:text-5xl font-semibold">Free Stuff</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold mx-2">Free Stuff</h2>
         <Image
           alt="giftbox"
           className="object-contain"
@@ -23,7 +23,7 @@ const FreeStuff = () => {
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
-      <p className="w-1/2 mt-3 leading-6">
+      <p className="md:w-1/2 w-4/5 mt-3 leading-6">
         If you need help on a project, a couple of days&apos; coding for
         example, based on the skill set I can offer then{" "}
         <Link
@@ -34,7 +34,7 @@ const FreeStuff = () => {
           <>
             <Image
               alt="inbox"
-              className="inline object-contain"
+              className="block mx-auto object-contain mt-2"
               src="/inbox.png"
               height={20}
               width={20}
