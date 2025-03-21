@@ -28,7 +28,6 @@ const Header = () => {
             height={20}
             width={20}
           />
-          <div className="invisible sm:visible">johnmorgan</div>
         </Link>
 
         <div className="flex gap-4 cursor-pointer">
