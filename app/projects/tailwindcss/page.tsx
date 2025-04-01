@@ -27,10 +27,10 @@ const page = () => {
 							impressive customer experience.
 						</p>
 						<p className="mb-3">
-							A coding challenge as part of a course on
-							https://scrimba.com/home. A wide range of tailwind properties are
-							used.
+							It was a coding challenge as part of a course from
+							https://scrimba.com/home.
 						</p>
+						<p>A wide range of tailwind properties are used, as follows:</p>
 						<ul
 							role="list"
 							className="list-disc marker:text-blue-500 pl-7 mb-11"
