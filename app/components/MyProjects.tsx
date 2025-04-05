@@ -49,6 +49,12 @@ const MyProjects = () => {
 						description="A tailwind challenge! A demo showing the application of the tailwindcss library to a testimonial page."
 						link="tailwindcss"
 					/>
+					<Card
+						src="/invoice-pagination.png"
+						title="Next.js v15 invoice pagination app"
+						description="An app to demo and practice the Next.js server-side components and server actions to draw data from a PostgreSQL database for presentation in a tailwindcss coded frontend."
+						link="invoice-pagination"
+					/>
 				</div>
 			</div>
 		</div>
