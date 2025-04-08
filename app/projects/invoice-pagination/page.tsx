@@ -34,24 +34,25 @@ const page = () => {
 							It displays the dummy invoice data in a table. There are two
 							buttons at the bottom of the table to move back and forth through
 							the invoices. Currently, it is hardcoded to display five invoices.
-							Clicking on Next loads the next five, clicking on Previous will
-							display the previous five invoices.
+							Clicking on &#x0022;Next&#x0022; loads the next five, clicking on
+							&#x0022;Previous&#x0022; will display the previous five invoices.
 						</p>
 						<p className="mb-3">
 							Upon loading of the home page, which is a server component, a
 							server-side function is called which, using Prisma, makes a call
 							to the PostgreSQL database to get the first five invoices. The
-							Next button is a Next.js Link. It calls a url which includes the
-							page number plus one. When the url loads, as a result fo the Next
-							button being clicked, the url is read and the page and limit
-							values extracted and passed to the server-side function to
-							retrieve data from the database. The Previous button works in a
-							similar way, but the current page number is reduced by one.
+							&#x0022;Next&#x0022; button is a Next.js Link. It calls a url
+							which includes the page number plus one. When the url loads, as a
+							result of the &#x0022;Next&#x0022; button being clicked, the url
+							is read and the page and limit values extracted and passed to the
+							server-side function to retrieve data from the database. The
+							&#x0022;Previous&#x0022; button works in a similar way, but the
+							current page number is reduced by one.
 						</p>
 						<p className="mb-3">
-							Using some simple JavaScript, the Previous button is greyed out
-							when on the first page as is the Next button when on the last
-							page.
+							Using some simple JavaScript, the &#x0022;Previous&#x0022; button
+							is greyed out when on the first page as is the Next button when on
+							the last page.
 						</p>
 						<p className="mb-3">
 							The file for the server-side action is in a data-access folder.
@@ -67,14 +68,34 @@ const page = () => {
 							in.
 						</p>
 
-						<p className="mb-5 text-xl">Home page</p>
+						<p className="mt-5 mb-5 text-xl">Home page</p>
 						<div className="flex mt-5 justify-center">
 							<Image
 								alt="pagination app home page"
 								width={800}
 								height={800}
 								className=""
-								src="/invoice-pagination.png"
+								src="/invoice-homepage.png"
+							/>
+						</div>
+						<p className="mt-5 mb-5 text-xl">Add Invoice</p>
+						<div className="flex mt-5 justify-center">
+							<Image
+								alt="pagination app invoice add"
+								width={800}
+								height={800}
+								className=""
+								src="/invoice-add.png"
+							/>
+						</div>
+						<p className="mt-5 mb-5 text-xl">Delete Invoice</p>
+						<div className="flex mt-5 justify-center">
+							<Image
+								alt="pagination app invoice add"
+								width={800}
+								height={800}
+								className=""
+								src="/invoice-delete.png"
 							/>
 						</div>
 					</div>
@@ -96,8 +117,8 @@ const page = () => {
 							<Pill text="PostgreSQL" />
 						</div>
 					</div>
-					<p className="text-4xl my-3">Lessons learnt</p>
-					<p className="mb-7"></p>
+					{/* <p className="text-4xl my-3">Lessons learnt</p>
+					<p className="mb-7"></p> */}
 					<div className="flex justify-end gap-3 pb-3 pr-3 font-medium">
 						<Link
 							href="https://github.com/johnhm22/pagination-invoices"
