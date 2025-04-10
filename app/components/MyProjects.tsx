@@ -8,8 +8,14 @@ const MyProjects = () => {
 				<h2 className="heading-section">Projects</h2>
 				<div className="h-full justify-items-center grid grid-cols-1 lg:grid-cols-2">
 					<Card
+						src="/invoice-homepage.png"
+						title="Next.js v15 invoice pagination app"
+						description="An app to demo and practice the Next.js server-side components and server actions to draw data from a PostgreSQL database for presentation in a tailwindcss coded frontend."
+						link="invoice-pagination"
+					/>
+					<Card
 						src="/finance-app.png"
-						title="Finance App"
+						title="Finance App - Next.js"
 						description="Next.js 13 had come out recently and I was keen to use this, make lots of mistakes, get confused and so learn. Also, I had not used Tailwind to any great degree so this was a great opportunity to do so."
 						link="finance-app"
 					/>
@@ -20,14 +26,8 @@ const MyProjects = () => {
 						link="prismic"
 					/>
 					<Card
-						src="/invoice-homepage.png"
-						title="Next.js v15 invoice pagination app"
-						description="An app to demo and practice the Next.js server-side components and server actions to draw data from a PostgreSQL database for presentation in a tailwindcss coded frontend."
-						link="invoice-pagination"
-					/>
-					<Card
 						src="/georgina-home.png"
-						title="Georgina Homes - proof of concept"
+						title="Georgina Homes - Prismic CMS and Next.js"
 						description="Applying Prismic CMS to a property rental. Using a variety of frameworks and libraries - Next.js, Prismic, Prisma, PostgreSQL, but also design/coding tools."
 						link="georgina-homes"
 					/>
